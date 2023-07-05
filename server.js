@@ -5,7 +5,7 @@ const MongoClient = require('mongodb').MongoClient
 const app = express()
 
 
-MongoClient.connect('mongodb+srv://gravityfalls:babyyoda@ily.bwa5e4q.mongodb.net/random-quotes?retryWrites=true&w=majority', {
+MongoClient.connect('mongodb+srv://gravityfalls:babyyoda@ily.bwa5e4q.mongodb.net/test?retryWrites=true&w=majority', {
     useUnifiedTopology: true 
 }) 
     .then(client => {
